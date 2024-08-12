@@ -1,12 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
+    /* Establece la fuente principal */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Centra el contenido vertical y horizontalmente */
     height: 100vh;
+    /* Establece la altura al 100% del viewport */
     background-color: #9eceea;
+    /* Color de fondo */
     margin: 0;
     padding: 0;
+    /* Elimina márgenes y relleno predeterminados */
 }
 
 .container {
@@ -15,22 +20,26 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    /* Estilo del contenedor principal */
 }
 
 h1 {
     color: #333;
     margin-bottom: 1rem;
+    /* Estilo del título */
 }
 
 .security-image {
     width: 150px;
     height: auto;
     margin-bottom: 1rem;
+    /* Estilo de la imagen de seguridad */
 }
 
 .password-container {
     display: flex;
     margin-bottom: 1rem;
+    /* Contenedor para el campo de contraseña y botón de copia */
 }
 
 input[type="text"] {
@@ -39,30 +48,34 @@ input[type="text"] {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
+    /* Estilo del campo de texto de la contraseña */
 }
 
 #copy-button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     background-color: #28a745;
     color: white;
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
+    /* Estilo del botón de copia */
 }
 
 .options {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    /* Estilo del contenedor de opciones */
 }
 
 .options label {
     margin-bottom: 0.5rem;
+    /* Estilo de las etiquetas de opciones */
 }
 
 input[type="checkbox"], input[type="number"] {
-    margin-right: 0.5rem;
+    margin-right: 0.1rem;
+    /* Estilo de los checkboxes y campo numérico */
 }
 
 #generate-button {
@@ -74,8 +87,10 @@ input[type="checkbox"], input[type="number"] {
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s;
+    /* Estilo del botón de generación */
 }
 
 #generate-button:hover {
     background-color: #0056b3;
+    /* Estilo al pasar el mouse sobre el botón */
 }
